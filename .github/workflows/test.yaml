@@ -1,0 +1,8 @@
+name: TEST_WORKFLOW
+on:
+  workflow_dispatch:
+jobs:
+  arbitraryTask:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "what is my purpose?"
